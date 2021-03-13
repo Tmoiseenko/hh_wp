@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto;
+}
+
+header, footer {
+    background-color: #2d3136;
+    color: #d7d7d7;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 37.14px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+header {
+    min-height: 100vh;
+}
+
+header form .col-md-6 {
+    max-height: 330px;
+}
+
+
+header .navbar-brand img {
+    max-width: 353px;
+}
+
+header .mail {
+    width: 210px;
+    margin-bottom: 45px;
+    margin-top: 30px;
+}
+
+header textarea.form-control, header input.form-control,
+header textarea.form-control:focus, header input.form-control:focus{
+    border: 2px solid rgba(255, 255, 255, 0.52);
+    background-color: #34383c;
+    color: #d7d7d7;;
+}
+
+header textarea.form-control .fail, header input.form-control .fail {
+    background-color: #2f3136;
+}
+
+header textarea {
+    min-height: 280px;
+}
+
+header input.form-control {
+    min-height: 90px;
+    font-size: 24px;
+}
+
+header span.req {
+    color: #be393b;
+}
+
+a.social_item:hover {
+    text-decoration: none;
+}
+
+.btn-red {
+    width: 200px;
+    height: 60px;
+    background-color: #be393b;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+main {
+    min-height: 100vh;
+    background-color: #f6f6f7;
+}
+
+main h3 {
+    color: #37414e;
+    font-size: 49px;
+    font-weight: 500;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+main .card {
+    width: 300px;
+    min-height: 370px;
+    color: #4b596c;
+    border-radius: 0;
+    border: 0px;
+}
+
+main .card .card-body {
+    background-color: #e9eef3;
+}
+
+main .card.odd .card-body {
+    background-color: #deebde;
+}
+
+main h5.card-title {
+    margin-bottom: 0;
+}
+
+main .card .odd .card-title {
+    vertical-align: center;
+}
+
+main .card.odd .card-title {
+    background-color: #58ad52;
+    font-weight: 400;
+}
+
+main .card .card-title {
+    height: 60px;
+    background-color: #4b596c;
+    color: #ffffff;
+    line-height: 3;
+    font-weight: 500;
+}
+
+main .card.odd .card-subtitle {
+    color: #58ad52;
+}
+
+main .card .card-subtitle {
+    font-weight: 700;
+}
+
+main .card .card-text {
+    font-weight: 600;
+}
+
+main .card.odd .card-text {
+    font-weight: 400;
+}
+
+footer {
+    padding-bottom: 65px;
+    padding-top: 45px;
+}
+
+footer .navbar-brand img {
+    max-width: 282px;
+}
+
+footer .social_item {
+    color: #656566;
+    width: 52px;
+    height: 51px;
+    border-radius: 50%;
+    border: 3px solid #454648;
+    background-color: #2f3338;
+}
+
+footer .social .social_item:first-of-type {
+    margin-right: 62px;
+}
+
+footer .social .social_item i {
+    color: #656566;
+    font-size: 27px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
